@@ -37,9 +37,7 @@ public class FibonacciGenerator extends Generator {
         } else {
             current = new BigDecimal(0);
         }
-
         lastIndex++;
-
         return current;
     }
 }
